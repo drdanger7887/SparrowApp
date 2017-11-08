@@ -1,0 +1,152 @@
+
+.error {
+   /* display: block;
+    clear: both;
+    background: rgba(255,255,255,0.8);
+    color: #900;
+    padding: 5px 10px;
+    margin: 10px;*/
+}
+
+.topbg { 
+    background: #009aee; 
+	/*position: fixed; width: 100%;*/
+    z-index: 999;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px; 
+    /* font-size: 18px; */
+    /* line-height: 20px; */
+}
+
+
+.top-nav li {
+    float: left;
+    margin: 5px;
+}
+
+.pull-right {
+    float: right !important;
+    margin-top: 6px;
+}
+
+
+.cs-blue-bg {
+    background: #999 !important;
+}
+
+a.button-sp1 {
+    background: #009aee;
+    transition: all 200ms linear 0s;
+    padding: 5px 15px !important;
+    color: #fff !important;
+    width: auto;
+    border-radius: 3px !important;
+    border: 1px #fff solid;
+    font-weight: normal !important;
+}
+
+a.button-sp1:hover {
+    background: #0083d4;
+}
+
+
+a.button-sp2 {
+    background: #009aee;
+    transition: all 200ms linear 0s;
+    padding: 5px 15px !important;
+    color: #fff !important;
+    width: auto;
+    border-radius: 3px !important;
+    border: 0px #fff solid;
+    font-weight: normal !important;
+}
+
+a.button-sp2:hover {
+    background: #0083d4;
+}
+
+
+.reg-sbmt {
+    width: auto!important;
+    padding: 15px 25px!important;
+    border-radius: 3px !important;
+    border: 1px #fff solid !important;
+    background: #009aee!important;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reg-sbmt:hover {
+    background: #0083d4 !important;
+}
+
+
+.footer {
+
+}
+
+.footerbg {
+    border-top: 4px #fff solid;
+    background: #009aee;
+}
+
+.ftrbg {
+    background: #111111;
+}
+
+.ftr-ste li {
+    line-height: 16px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.ftr-ste li:hover {
+    list-style: disc;
+}
+
+.ftr-ste li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.ftr-ste li a:hover {
+    color: #b3e1fa;
+}
+
+.footer .logo {
+    margin-top: 30px;
+}
+
+.emaddr {
+    float: left;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 3px 0 0 3px;
+    border: 1px #fff solid;
+    width: 224px;
+    box-sizing: border-box;
+    -webkit-ox-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+.subs-brd {
+    float: left;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border: 1px #fff solid;
+    border-radius: 0 5px 5px 0!important;
+    cursor: pointer;
+    width: 120px;
+    background: #009aee;
+    color: #fff;
+}
+
+.subs-brd:hover {
+    background: #0083d4;
+}
