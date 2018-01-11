@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+	<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+
+<head>
+
+	<!-- meta -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+
+	<title>Sparrow | Connecting communities together</title>
+
+
+	<meta name="keywords" content="ridesharing, London, carsharing" />
+	<meta name="description" content="The first intra-city ridesharing application based in London" />
+	<link rel="image_src" href="http://sparrowapp.co/images/sparrowapp.jpg" />
+	
+	<meta itemprop="name" content="SPARROW Ridesharing Application" />
+	<meta itemprop="description" content="The first intra-city ridesharing application based in London" />
+	<meta itemprop="image" content="http://sparrowapp.co/images/sparrowapp.jpg" />
+
+	<meta property="og:locale" content="en"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="SPARROW Ridesharing Application" />
+	<meta property="og:description" content="The first intra-city ridesharing application based in London" />
+	<meta property="og:site_name" content="SPARROW Ridesharing Application" />
+
+	<meta property="og:url" content="http://sparrowapp.co/" />
+	<meta property="og:image" content="http://sparrowapp.co/images/sparrowapp.jpg" />
+	<meta property="og:image:width" content="1000" />
+	<meta property="og:image:height" content="563" />
+
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:url" content="http://sparrowapp.co/" />
+	<meta name="twitter:title" content="SPARROW Ridesharing Application" />
+	<meta name="twitter:description" content="The first intra-city ridesharing application based in London" />
+	<meta name="twitter:image" content="http://sparrowapp.co/images/sparrowapp.jpg" />
+
+		<!-- LOAD JQUERY LIBRARY -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+		<!-- LOADING FONTS AND ICONS 
+		<link href="http://fonts.googleapis.com/css?family=Raleway%3A500%2C800" rel="stylesheet" property="stylesheet" type="text/css" media="all" /><link href="http://fonts.googleapis.com/css?family=Raleway%3A500" rel="stylesheet" property="stylesheet" type="text/css" media="all" />-->
+
+		<link rel="stylesheet" type="text/css" href="fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+
+		<!-- REVOLUTION STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="css/settings.css">
+		<!-- REVOLUTION LAYERS STYLES -->
+		<style>.tp-caption.NotGeneric-CallToAction,.NotGeneric-CallToAction{color:rgba(255,255,255,1.00);font-size:14px;line-height:14px;font-weight:500;font-style:normal;font-family:Raleway;padding:10px 30px 10px 30px;text-decoration:none;background-color:rgba(0,0,0,0);border-color:rgba(255,255,255,0.50);border-style:solid;border-width:1px;border-radius:0px 0px 0px 0px;text-align:left;letter-spacing:3px;text-align:left}.tp-caption.NotGeneric-CallToAction:hover,.NotGeneric-CallToAction:hover{color:rgba(255,255,255,1.00);text-decoration:none;background-color:transparent;border-color:rgba(255,255,255,1.00);border-style:solid;border-width:1px;border-radius:0px 0px 0px 0px;cursor:pointer}</style>
+<style type="text/css">#mc_embed_signup input#mce-EMAIL{font-family:"Arial",sans-serif; font-size:15px; color:#000; background-color:#fff; line-height:46px; padding:0 20px; cursor:text; border:0; width:400px; margin-bottom:0px; -webkit-transition:background-color 0.5s; -moz-transition:background-color 0.5s; -o-transition:background-color 0.5s; -ms-transition:background-color 0.5s; transition:background-color 0.5s; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px}#mc_embed_signup input#mce-EMAIL[type="email"]:focus{background-color:#f5f5f5}#mc_embed_signup input#mc-embedded-subscribe,#mc_embed_signup input#mc-embedded-subscribe:focus{font-family:"Arial",sans-serif; line-height:46px;  letter-spacing:1px;  text-transform:uppercase;  font-size:15px;  font-weight:700;  padding:0 20px;border:0;  background:#009aee;  color:#fff;-webkit-border-radius:0px;-moz-border-radius:0px;border-radius:0px}#mc_embed_signup input#mc-embedded-subscribe:hover{background:#0083d4}@media only screen and (max-width:767px){#mc_embed_signup input#mce-EMAIL{width:200px}}</style>
+
+        
+		<!-- REVOLUTION JS FILES -->
+		<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
+		<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+		<script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
+		<script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+
+
+    
+	<!--  Desktop Favicons  -->
+	<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+
+
+	<!-- ***** Boostrap Custom / Addons Stylesheets ***** -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+
+	<!-- ***** Main + Responsive & Base sizing CSS Stylesheet ***** -->
+	<link rel="stylesheet" href="css/template.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/base-sizing.css" type="text/css" media="all">
+	<link rel="stylesheet" href="custom11.css?ver=11" type="text/css" media="all">
+
+
+	<!-- Modernizr Library -->
+	<script type="text/javascript" src="js/modernizr.min.js"></script>
+
+	<!-- jQuery Library -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+
+<body class="kl-scrollspy one-page" data-spy="scroll" style="position: relative;">
+
+
+
+	<!-- Page Wrapper -->
+	<div id="page_wrapper">
+	
+
+		<!-- Header style 1 -->
+		<header id="header" class="site-header">
+			<img src="images/sparrow-logo.png" class="imglogo" alt="sparrowapp logo">
+		</header>
+		<!-- / Header style 1 -->
+
+		
+		<!-- Slideshow - Revolution slider element -->
+	<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="sp" style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.2.6 auto mode -->
+	<div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.2.6">
+<ul>	<!-- SLIDE  -->
+    <li data-index="rs-7" data-transition="zoomout" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power1.easeOut" data-easeout="Power4.easeInOut" data-masterspeed="600"  data-thumb="assets/100x50_ee91a-bbackground.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+        <img src="assets/ee91a-bbackground.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption   tp-resizeme  revls2" 
+			 id="slide-7-layer-12" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['middle','middle','middle','middle']" data-voffset="['-228','-141','-139','-139']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:490;e:Power3.easeOut;" 
+			 data-transform_out="opacity:0;s:300;e:Power2.easeInOut;" 
+			 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" 
+			data-start="1750" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 5; font-size: 18px; line-height: 22px; font-weight: 100; color: rgba(255, 255, 255, 1.00);font-family:ggotham; text-align: center; padding-top: 0px;"> </div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-7-layer-13" 
+			 data-x="['left','left','left','left']" data-hoffset="['335','314','210','100']" 
+			 data-y="['top','top','top','top']" data-voffset="['175','63','56','55']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:760;e:Power3.easeInOut;" 
+			 data-transform_out="opacity:0;s:1.875;" 
+			 data-mask_in="x:0px;y:0px;" 
+			data-start="950" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 6; white-space: nowrap; font-size: 25px; line-height: 26px; font-weight: 100; color: rgba(255, 255, 255, 1.00);font-family:ggotham;">Effortless, efficient travel</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption   tp-resizeme  revls1" 
+			 id="slide-7-layer-14" 
+			 data-x="['left','left','left','left']" data-hoffset="['335','314','210','100']" 
+			 data-y="['top','top','top','top']" data-voffset="['206','93','86','86']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:740;e:Power3.easeInOut;" 
+			 data-transform_out="opacity:0;s:1.875;" 
+			 data-mask_in="x:0px;y:0px;" 
+			data-start="1120" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 7; white-space: nowrap; font-size: 25px; line-height: 26px; font-weight: 900; color: rgba(255, 255, 255, 1.00);font-family:ggothamb;">by connecting communities</div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-7-layer-15" 
+			 data-x="['left','left','left','left']" data-hoffset="['335','314','210','100']" 
+			 data-y="['top','top','top','top']" data-voffset="['239','124','119','117']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:730;e:Power3.easeInOut;" 
+			 data-transform_out="opacity:0;s:1.875;" 
+			 data-mask_in="x:0px;y:0px;" 
+			data-start="1270" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 8; white-space: nowrap; font-size: 25px; line-height: 26px; font-weight: 100; color: rgba(255, 255, 255, 1.00);font-family:ggotham;">together</div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" 
+			 id="slide-7-layer-17" 
+			 data-x="['left','left','left','left']" data-hoffset="['314','293','194','84']" 
+			 data-y="['top','top','top','top']" data-voffset="['179','65','59','58']" 
+						data-width="1"
+			data-height="81"
+			data-whitespace="normal"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:940;e:Power3.easeInOut;" 
+			 data-transform_out="opacity:0;s:1.875;" 
+			 data-mask_in="x:0px;y:0px;" 
+			data-start="940" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 9;background-color:rgba(255, 255, 255, 1.00);border-color:rgba(255, 255, 255, 0);"> </div>
+
+		<!-- LAYER NR. 6 -->
+		<div class="tp-caption   tp-resizeme rs-parallaxlevel-4" 
+			 id="slide-7-layer-21" 
+			 data-x="['left','left','left','left']" data-hoffset="['432','340','241','91']" 
+			 data-y="['top','top','top','top']" data-voffset="['296','174','160','184']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;s:1300;e:Power4.easeOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="770" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 10;"><img src="assets/0f036-linkpath.png" alt="" data-ww="" data-hh="" data-no-retina> </div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption   tp-resizeme rs-parallaxlevel-4" 
+			 id="slide-7-layer-19" 
+			 data-x="['left','left','left','left']" data-hoffset="['330','233','133','17']" 
+			 data-y="['top','top','top','top']" data-voffset="['306','186','173','191']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="x:-50px;opacity:0;s:1190;e:Power2.easeOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 11;"><img src="assets/a12a3-car.png" alt="" data-ww="" data-hh="" data-no-retina> </div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-7-layer-20" 
+			 data-x="['left','left','left','left']" data-hoffset="['680','611','501','280']" 
+			 data-y="['top','top','top','top']" data-voffset="['150','11','55','105']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="x:50px;opacity:0;s:790;e:Power2.easeOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="500" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 12;"><img src="assets/519c9-phone.png" alt="" data-ww="['276px','276px','213px','213px']" data-hh="['257px','257px','200px','200px']" data-no-retina> </div>
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-7-layer-18" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['381','211','200','215']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="normal"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0;sY:0;skX:0;skY:0;opacity:0;s:640;e:Bounce.easeOut;" 
+			 data-transform_out="opacity:0;s:300;" 
+			data-start="2140" 
+			data-responsive_offset="on" 
+
+			
+			style="z-index: 13;"><img src="assets/46c68-geotag.png" alt="" data-ww="" data-hh="" data-no-retina> </div>
+
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption NotGeneric-CallToAction  " 
+			 id="slide-7-layer-11" 
+			 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+			 data-y="['top','top','top','top']" data-voffset="['446','277','273','277']" 
+						data-width="none"
+			data-height="none"
+			data-whitespace="nowrap"
+			data-transform_idle="o:1;"
+ 
+			 data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:770;e:Power3.easeOut;" 
+			 data-transform_out="opacity:0;s:1000;e:Power2.easeInOut;" 
+			data-start="1850" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			
+			style="z-index: 14; white-space: nowrap;padding:0px 0px 0px 0px;border-color:rgba(255, 255, 255, 0);border-style:none;cursor:default;"><!-- Contact form element -->
+			<div id="mc_embed_signup" class="contactForm">
+<form action="php_helpers/_contact-process-g.php" method="post" class="">			
+<input type="email" value="" name="email" class="email" id="mce-EMAIL" placeholder="Your Email Address" required><input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" class="button"></form>
+			</div> 
+<!--/ Contact form element --> </div>
+	</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+</div><!-- END REVOLUTION SLIDER -->
+		<script type="text/javascript">
+						var tpj=jQuery;
+			
+			var revapi4;
+			tpj(document).ready(function() {
+				if(tpj("#rev_slider_4_1").revolution == undefined){
+					revslider_showDoubleJqueryError("#rev_slider_4_1");
+				}else{
+					revapi4 = tpj("#rev_slider_4_1").show().revolution({
+						sliderType:"hero",
+jsFileLocation:"",
+						sliderLayout:"auto",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+						},
+						responsiveLevels:[1240,1024,778,480],
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:[1200,1020,778,480],
+						gridheight:[515,334,334,334],
+						lazyType:"none",
+						parallax: {
+							type:"scroll",
+							origo:"enterpoint",
+							speed:400,
+							levels:[1,2,5,10,15,20,25,30,40,50,60,70,80,90,100,55],
+							type:"scroll",
+						},
+						shadow:0,
+						spinner:"spinner3",
+						autoHeight:"off",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+			});	/*ready*/
+		</script>
+		
+<!-- / Slideshow END - Revolution slider element -->
+	
+
+
+		<!-- Offers section -->
+		<section class="hg_section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<!-- Title element with custom padding -->
+						<div class="kl-title-block clearfix tbk--text-default tbk--left text-left tbk-symbol--border tbk-icon-pos--after-title" style="padding: 20px 0 15px;">
+							<!-- Title bottom text -->
+							<div class="tbk__text s-offers">
+								<p>
+									Traditional ridesharing is outdated!
+								</p>
+								<p class="s-offers-b">
+									Sparrow offers relevant rewards to users for sharing rides everyday.
+								</p>								
+							</div>
+							<!--/ Title bottom text -->
+						</div>
+						<!--/ Title element with custom padding -->
+					</div>
+					<!--/ col-md-12 col-sm-12 -->
+				</div>
+				<!--/ row -->
+			</div>
+			<!--/ container -->
+		</section>
+		<!--/ Offers section -->
+
+
+
+
+   <!-- Alignment icons, titles and content section -->
+		<section class="hg_section ptop-20 pbottom-20 iconsdotted">
+			<div class="container" style="max-width: 800px;">
+				<div class="row">
+
+					<div class="col-md-4 col-sm-4">
+						<!-- Icon box element / left aligned -->
+						<div class="kl-iconbox text-center">
+							<div class="kl-iconbox__inner">
+								<!-- Icon wrapper -->
+								<div class="kl-iconbox__icon-wrapper">
+									<!-- Icon/Image -->
+									<img class="kl-iconbox__icon" src="images/icon-money.png">
+									<!--/ Icon/Image -->
+								</div>
+								<!--/ Icon wrapper - .kl-iconbox__icon-wrapper -->
+
+								<!-- Content wrapper -->
+								<div class="kl-iconbox__content-wrapper">
+									<!-- Content -->
+									<div class=" kl-iconbox__el-wrapper kl-iconbox__desc-wrapper">
+										<!-- Description -->
+										<p class="kl-iconbox__desc">
+											Earn relevant rewards and save cash
+										</p>
+										<!--/ Description -->
+									</div>
+									<!--/ Content -->
+								</div>
+								<!--/ Content wrapper - .kl-iconbox__content-wrapper -->
+							</div>
+							<!--/ .kl-iconbox__inner -->
+						</div>
+						<!--/ Icon box element / left aligned -->
+					</div>
+					<!--/ col-md-4 col-sm-4 -->
+
+					<div class="col-md-4 col-sm-4">
+						<!-- Icon box element / center aligned -->
+						<div class="kl-iconbox text-center">
+							<div class="kl-iconbox__inner">
+								<!-- Icon/Image wrapper -->
+								<div class="kl-iconbox__icon-wrapper ">
+									<img class="kl-iconbox__icon" src="images/icon-friends.png">
+								</div>
+								<!-- Icon/Image wrapper - .kl-iconbox__icon-wrappe-->
+
+								<!-- Content wrapper -->
+								<div class="kl-iconbox__content-wrapper">
+									<!-- Content -->
+									<div class=" kl-iconbox__el-wrapper kl-iconbox__desc-wrapper">
+										<!-- Description -->
+										<p class="kl-iconbox__desc">
+											Connect with others
+										</p>
+										<!--/ Description -->
+									</div>
+									<!--/ Content -->
+								</div>
+								<!-- Content wrapper - .kl-iconbox__content-wrapper-->
+							</div>
+							<!--/ .kl-iconbox__inner -->
+						</div>
+						<!--/ Icon box element / center aligned -->
+					</div>
+					<!--/ col-md-4 col-sm-4 -->
+
+					<div class="col-md-4 col-sm-4">
+						<!-- Icon box element / right aligned -->
+						<div class="kl-iconbox text-center">
+							<div class="kl-iconbox__inner">
+								<!-- Icon/Image wrapper -->
+								<div class="kl-iconbox__icon-wrapper ">
+									<img class="kl-iconbox__icon" src="images/icon-eco.png">
+								</div>
+								<!-- Icon/Image wrapper - .kl-iconbox__icon-wrapper-->
+
+								<!-- Content wrapper -->
+								<div class="kl-iconbox__content-wrapper">
+									<!-- Content -->
+									<div class=" kl-iconbox__el-wrapper kl-iconbox__desc-wrapper">
+										<!-- Description -->
+										<p class="kl-iconbox__desc">
+											Reduce journey time and emissions
+										</p>
+										<!--/ Description -->
+									</div>
+									<!--/ Content -->
+								</div>
+								<!-- Content wrapper - .kl-iconbox__content-wrapper-->
+							</div>
+							<!--/ .kl-iconbox__inner -->
+						</div>
+						<!--/ Icon box element / right aligned -->
+					</div>
+					<!--/ col-md-4 col-sm-4 -->
+				</div>
+				<!--/ row -->
+			</div>
+			<!--/ container -->
+		</section>
+		<!--/ Alignment icons, titles and content section -->
+
+
+
+
+		<!-- Social section -->
+		<section class="hg_section pbottom-0 socialbackground">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<!-- Title element with custom padding -->
+						<div class="kl-title-block clearfix tbk--text-default tbk--left text-left tbk-symbol--border tbk-icon-pos--after-title" style="padding: 20px 0 15px;">
+							<!-- Title bottom text -->
+							<div class="tbk__text s-offers">
+								<p>
+<img src="images/socials.png" style="">
+										<p class="soceff">Efficient automated matching based on a<p class="socalg">social algorithm</p>
+								</p>								
+							</div>
+							<!--/ Title bottom text -->
+						</div>
+						<!--/ Title element with custom padding -->
+					</div>
+					<!--/ col-md-12 col-sm-12 -->
+				</div>
+				<!--/ row -->
+			</div>
+			<!--/ container -->
+		</section>
+		<!--/ Social section -->
+
+
+
+
+
+
+	</div>
+	<!--/ Page Wrapper -->
+
+
+
+
+	
+	<!-- JS FILES // These should be loaded in every page -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/kl-plugins.js"></script>
+
+	<!-- JS FILES // Loaded on this page -->
+	<!-- Required js scripts files for Revolution Slider element -->
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/extensions/revolution.extension.navigation.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/extensions/revolution.extension.actions.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/extensions/revolution.extension.parallax.min.js"></script>
+	<script type="text/javascript" src="js/plugins/_sliders/revolution-slider/extensions/revolution.extension.video.min.js"></script>
+
+	<!-- Required js trigger for Revolution Slider element -->
+	<script type="text/javascript">
+		var tpj = jQuery;
+
+		var revapi32;
+		tpj(document).ready(function() {
+			if (tpj("#rev_slider_32_1").revolution == undefined) {
+				revslider_showDoubleJqueryError("#rev_slider_32_1");
+			} else {
+				revapi32 = tpj("#rev_slider_32_1").show().revolution({
+					sliderType: "standard",
+
+					sliderLayout: "fullscreen",
+					dottedOverlay: "none",
+					delay: 9000,
+					navigation: {
+						keyboardNavigation: "off",
+						keyboard_direction: "horizontal",
+						mouseScrollNavigation: "off",
+						mouseScrollReverse: "default",
+						onHoverStop: "off",
+						touch: {
+							touchenabled: "on",
+							swipe_threshold: 75,
+							swipe_min_touches: 50,
+							swipe_direction: "horizontal",
+							drag_block_vertical: false
+						}
+					},
+					responsiveLevels: [1240, 1024, 778, 480],
+					visibilityLevels: [1240, 1024, 778, 480],
+					gridwidth: [1240, 1024, 778, 480],
+					gridheight: [868, 768, 960, 720],
+					lazyType: "smart",
+					parallax: {
+						type: "scroll",
+						origo: "enterpoint",
+						speed: 400,
+						levels: [5, 10, 15, 25, 20, 30, 35, 40, 45, 46, 47, 48, 49, 50, 51, 55],
+						type: "scroll",
+					},
+					shadow: 0,
+					spinner: "off",
+					stopLoop: "on",
+					stopAfterLoops: 0,
+					stopAtSlide: 1,
+					shuffle: "off",
+					autoHeight: "off",
+					fullScreenAutoWidth: "off",
+					fullScreenAlignForce: "off",
+					fullScreenOffsetContainer: "",
+					fullScreenOffset: "60px",
+					disableProgressBar: "on",
+					hideThumbsOnMobile: "off",
+					hideSliderAtLimit: 0,
+					hideCaptionAtLimit: 0,
+					hideAllCaptionAtLilmit: 0,
+					debugMode: false,
+					fallbacks: {
+						simplifyAll: "off",
+						nextSlideOnWindowFocus: "off",
+						disableFocusListener: false,
+					}
+				});
+				jQuery('.lightsensor').on('mousemove', function() {
+					var time = Math.round(Math.random() * 20) / 100,
+						alpha = 0.7 + (Math.random() * 3) / 10;
+					punchgs.TweenLite.to(jQuery('.lighton'), time, {
+						autoAlpha: alpha,
+						ease: punchgs.Power3.easeOut
+					});
+				});
+			}
+		}); /*ready*/
+	</script>
+
+	<!-- Custom Kallyas JS codes -->
+	<script type="text/javascript" src="js/kl-scripts.js"></script>
+
+	<!-- Custom user JS codes -->
+	<script type="text/javascript" src="js/kl-custom.js"></script>
+
+
+
+
+
+</body>
+</html>

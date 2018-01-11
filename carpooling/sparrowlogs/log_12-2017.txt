@@ -1,0 +1,2 @@
+29-12-2017, 21:42 | user #28 change money: 13.50 +2.7 = 16.2 | /carpooling/trip/tripconfirm/199 
+29-12-2017, 21:42 | user #27 confirm trip #186, rating+1 = 7 | /carpooling/trip/tripconfirm/199 

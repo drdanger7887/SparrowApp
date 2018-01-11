@@ -1,0 +1,6 @@
+29-12-2017, 10:57 | user #14 try to redeem reward #5 | /carpooling/rewards/purchase/5?redeem=1 
+29-12-2017, 10:57 | user #14 change money: 97.00 +-10.7 = 86.3 | /carpooling/rewards/purchase/5?redeem=1 
+29-12-2017, 10:57 | user #20 try to redeem reward #6 | /carpooling/rewards/purchase/6?redeem=1 
+29-12-2017, 10:57 | user #20 change money: 37.80 +-7.4 = 30.4 | /carpooling/rewards/purchase/6?redeem=1 
+12-2017, 21:28 | user #28 change money: 10.80 +2.7 = 13.5 | /carpooling/trip/tripconfirm/194 
+12-2017, 21:28 | user #27 confirm enquiry #181 in trip #194 | /carpooling/trip/tripconfirm/194 

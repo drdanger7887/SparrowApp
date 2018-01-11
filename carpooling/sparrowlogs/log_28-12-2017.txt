@@ -1,0 +1,25 @@
+28-12-2017, 23:02 | user #27 try to redeem reward #9 | /carpooling/rewards/purchase/9?redeem=1 
+28-12-2017, 23:02 | user #27 change money: 173.00 +-9 = 164 | /carpooling/rewards/purchase/9?redeem=1 
+28-12-2017, 23:07 | user #27 try to redeem reward #12 | /carpooling/rewards/purchase/12?redeem=1 
+28-12-2017, 23:07 | user #27 change money: 160.75 +-3.25 = 157.5 | /carpooling/rewards/purchase/12?redeem=1 
+28-12-2017, 23:07 | user #27 try to redeem reward #11 | /carpooling/rewards/purchase/11?redeem=1 
+28-12-2017, 23:07 | user #27 change money: 157.50 +-2.95 = 154.55 | /carpooling/rewards/purchase/11?redeem=1 
+28-12-2017, 23:10 | user #28 saved trip #184 | /carpooling/addtrip/form/0/true 
+28-12-2017, 23:10 | user #27 send enquiry trip #184 checked | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:10 | user #27 change money: 154.55 +-3 = 151.55 | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:10 | user # send enquiry - passenger mailed | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:10 | user # send enquiry - Sparrow mailed | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:14 | user #28 saved trip #185 | /carpooling/addtrip/form/0/true 
+28-12-2017, 23:15 | user #27 send enquiry trip #185 checked | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:15 | user #27 change money: 151.55 +-3 = 148.55 | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:15 | user # send enquiry - passenger mailed | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:15 | user # send enquiry - Sparrow mailed | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:16 | user #27 send enquiry trip #185 checked | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:16 | user #27 change money: 148.55 +-3 = 145.55 | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:16 | user # send enquiry - passenger mailed | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:16 | user # send enquiry - Sparrow mailed | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:19 | user #28 saved trip #186 | /carpooling/addtrip/form/0/true 
+28-12-2017, 23:19 | user #27 change money: 145.55 +-3 = 142.55 | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:22 | user #27 change money: 142.55 +-3 = 139.55 | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:23 | user #27 send enquiry for trip #186 | /carpooling/communication/sendenquiry/true 
+28-12-2017, 23:23 | user #27 change money: 139.55 +-3 = 136.55 | /carpooling/communication/sendenquiry/true 

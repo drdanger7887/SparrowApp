@@ -1,0 +1,30 @@
+[25-Jul-2017 09:52:23 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 640 bytes) in /home/sparrowappco/public_html/carpooling/system/libraries/Image_lib.php on line 514
+[01-Aug-2017 11:21:06 America/Chicago] PHP Warning:  require(carpooling/config/constants.php): failed to open stream: No such file or directory in /home/sparrowappco/public_html/carpooling/system/core/CodeIgniter.php on line 64
+[01-Aug-2017 11:21:06 America/Chicago] PHP Fatal error:  require(): Failed opening required 'carpooling/config/constants.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/sparrowappco/public_html/carpooling/system/core/CodeIgniter.php on line 64
+[27-Sep-2017 15:33:01 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 16192 bytes) in /home/sparrowappco/public_html/carpooling/system/libraries/Image_lib.php on line 1155
+[03-Oct-2017 08:56:25 America/Chicago] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 13056 bytes) in /home/sparrowappco/public_html/carpooling/system/libraries/Image_lib.php on line 1155
+[12-Oct-2017 17:10:12 America/Chicago] PHP Parse error:  syntax error, unexpected ''s' (T_ENCAPSED_AND_WHITESPACE) in /home/sparrowappco/public_html/carpooling/carpooling/themes/carpooling/views/header_home.php on line 30
+[17-Oct-2017 08:43:15 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/sparrowappco/public_html/carpooling/carpooling/controllers/addtrip.php on line 715
+[31-Oct-2017 13:50:42 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/sparrowappco/public_html/carpooling/carpooling/themes/carpooling/views/addtrip_individual.php on line 172
+[06-Nov-2017 12:27:34 Europe/London] PHP Fatal error:  Class 'CI_Controller' not found in /home/sparrowappco/public_html/carpooling/system/core/CodeIgniter.php on line 233
+[06-Nov-2017 12:27:36 Europe/London] PHP Fatal error:  Class 'CI_Controller' not found in /home/sparrowappco/public_html/carpooling/system/core/CodeIgniter.php on line 233
+[06-Nov-2017 12:27:40 Europe/London] PHP Fatal error:  Class 'CI_Controller' not found in /home/sparrowappco/public_html/carpooling/system/core/CodeIgniter.php on line 233
+[06-Dec-2017 19:51:06 Europe/London] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Amount must be no more than £999,999.99' in /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php:124 from API request 'req_XvfuSjWTDEj9kD'
+Stack trace:
+#0 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php(102): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php(309): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/sparrowappco/public_html/carpooling/ca in /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php on line 124
+[19-Dec-2017 09:07:19 Europe/London] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Amount must be no more than £999,999.99' in /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php:124 from API request 'req_yUr8v4GHXxuw8m'
+Stack trace:
+#0 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php(102): Stripe\ApiRequestor::_specificAPIError('{\n  "error": {\n...', 400, Array, Array, Array)
+#1 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php(309): Stripe\ApiRequestor->handleErrorResponse('{\n  "error": {\n...', 400, Array, Array)
+#2 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#3 /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiResource.php(119): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#4 /home/sparrowappco/public_html/carpooling/ca in /home/sparrowappco/public_html/carpooling/carpooling/controllers/Stripe/lib/ApiRequestor.php on line 124
+[21-Dec-2017 15:31:29 Europe/London] PHP Parse error:  syntax error, unexpected 'email' (T_STRING) in /home/sparrowappco/public_html/carpooling/carpooling/controllers/communication.php on line 132
+[21-Dec-2017 15:31:38 Europe/London] PHP Parse error:  syntax error, unexpected 'email' (T_STRING) in /home/sparrowappco/public_html/carpooling/carpooling/controllers/communication.php on line 132
+[21-Dec-2017 15:32:20 Europe/London] PHP Parse error:  syntax error, unexpected 'email' (T_STRING) in /home/sparrowappco/public_html/carpooling/carpooling/controllers/communication.php on line 132
+[23-Dec-2017 14:19:12 Europe/London] PHP Fatal error:  Call to undefined function sendmail() in /home/sparrowappco/public_html/carpooling/carpooling/controllers/refresh.php on line 35
+[29-Dec-2017 21:25:34 Europe/London] PHP Parse error:  syntax error, unexpected ')' in /home/sparrowappco/public_html/carpooling/carpooling/controllers/trip.php on line 48

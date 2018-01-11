@@ -1,0 +1,16 @@
+29-12-2017, 21:44 | user #28 change money: 16.20 +2.7 = 18.9 | /carpooling/trip/tripconfirm/197 
+29-12-2017, 21:44 | user #27 confirm trip #184, rating 28 = 8 | /carpooling/trip/tripconfirm/197 
+30-12-2017, 08:53 | user #28 change money: 18.90 +2.7 = 21.6 | /carpooling/trip/tripconfirm/192 
+30-12-2017, 08:53 | user #27 confirm trip #179, rating user #28 = 9 | /carpooling/trip/tripconfirm/192 
+30-12-2017, 17:51 | user #20 save trip #187 for request #4 | /carpooling/addtrip/form/0/true 
+30-12-2017, 21:00 | user #28 change money: 21.60 +2.7 = 24.3 | /carpooling/trip/tripconfirm/190 
+30-12-2017, 21:00 | user #27 confirm trip #177, rating user #28 = 10 | /carpooling/trip/tripconfirm/190 
+31-12-2017, 11:49 | user #14 saved trip #188 | /carpooling/addtrip/form/0/true 
+31-12-2017, 11:58 | user #29 send enquiry for trip #188 | /carpooling/communication/sendenquiry/true 
+31-12-2017, 11:58 | user #29 change money: 3.00 +-3 = 0 | /carpooling/communication/sendenquiry/true 
+31-12-2017, 11:59 | user #29 change money: 0.00 +100 = 100 | /carpooling/payments 
+31-12-2017, 11:59 | user #29 send enquiry for trip #188 | /carpooling/communication/sendenquiry/true 
+31-12-2017, 11:59 | user #29 change money: 100.00 +-3 = 97 | /carpooling/communication/sendenquiry/true 
+31-12-2017, 12:00 | user #14 saved trip #189 | /carpooling/addtrip/form/0/true 
+31-12-2017, 12:00 | user #29 send enquiry for trip #189 | /carpooling/communication/sendenquiry/true 
+31-12-2017, 12:00 | user #29 change money: 97.00 +-3 = 94 | /carpooling/communication/sendenquiry/true 

@@ -1,0 +1,84 @@
+01-01-2018, 10:23 | user #20 saved trip #190 | /carpooling/addtrip/form/0/true 
+01-01-2018, 10:24 | user #14 send enquiry for trip #190 | /carpooling/communication/sendenquiry/true 
+01-01-2018, 10:24 | user #14 change money: 86.30 +-3 = 83.3 | /carpooling/communication/sendenquiry/true 
+01-01-2018, 10:36 | user #14 try to redeem reward #20 | /carpooling/rewards/purchase/20?redeem=1 
+01-01-2018, 10:36 | user #14 change money: 83.30 +-3.9 = 79.4 | /carpooling/rewards/purchase/20?redeem=1 
+01-01-2018, 10:37 | user #14 try to redeem reward #23 | /carpooling/rewards/purchase/23?redeem=1 
+01-01-2018, 10:37 | user #14 change money: 79.40 +-10 = 69.4 | /carpooling/rewards/purchase/23?redeem=1 
+01-01-2018, 10:42 | user #14 saved trip #191 | /carpooling/addtrip/form/0/true 
+01-01-2018, 23:23 | user #30 change money: 3.00 +10 = 13 | /carpooling/payments 
+01-01-2018, 23:39 | user #30 change money: 13.00 +-3 = 10 | /carpooling/addtrip/form_request?commid=1 
+01-01-2018, 23:39 | user #30 add request #9 | /carpooling/addtrip/form_request?commid=1 
+01-01-2018, 23:43 | user #20 save trip #192 for request #9 | /carpooling/addtrip/form/0/true 
+01-01-2018, 23:45 | user #30 saved trip #193 | /carpooling/addtrip/form/0/true 
+01-01-2018, 23:46 | user #30 change money: 10.00 +-3 = 7 | /carpooling/addtrip/form_request?commid=1 
+01-01-2018, 23:46 | user #30 add request #10 | /carpooling/addtrip/form_request?commid=1 
+01-01-2018, 23:47 | user #30 try to redeem reward #22 | /carpooling/rewards/purchase/22?redeem=1 
+01-01-2018, 23:47 | user #30 change money: 7.00 +-5 = 2 | /carpooling/rewards/purchase/22?redeem=1 
+02-01-2018, 08:05 | user #20 change money: 30.40 +2.7 = 33.1 | /carpooling/trip/tripconfirm/205 
+02-01-2018, 08:05 | user #30 confirm trip #192, rating user #20 = 5 | /carpooling/trip/tripconfirm/205 
+02-01-2018, 09:25 | user #14 saved trip #194 | /carpooling/addtrip/form/0/true 
+02-01-2018, 09:26 | user #14 saved trip #195 | /carpooling/addtrip/form/0/true 
+02-01-2018, 09:27 | user #14 saved trip #196 | /carpooling/addtrip/form/0/true 
+02-01-2018, 13:41 | user #20 saved trip #197 | /carpooling/addtrip/form/0/true 
+02-01-2018, 13:43 | user #30 change money: 2.00 +8 = 10 | /carpooling/payments 
+02-01-2018, 13:43 | user #30 send enquiry for trip #197 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 13:43 | user #30 change money: 10.00 +-3 = 7 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 13:51 | user #30 delete trip #193 | /carpooling/addtrip/delete/193 
+02-01-2018, 13:52 | user #14 change money: 69.40 +-3 = 66.4 | /carpooling/addtrip/form_request?commid=1 
+02-01-2018, 13:52 | user #14 add request #11 | /carpooling/addtrip/form_request?commid=1 
+02-01-2018, 13:52 | user #14 change money: 66.40 +-3 = 63.4 | /carpooling/addtrip/form_request?commid=2 
+02-01-2018, 13:52 | user #14 add request #12 | /carpooling/addtrip/form_request?commid=2 
+02-01-2018, 13:53 | user #20 saved trip #198 | /carpooling/addtrip/form/0/true 
+02-01-2018, 13:59 | user #20 saved trip #199 | /carpooling/addtrip/form/0/true 
+02-01-2018, 14:02 | user #14 send enquiry for trip #198 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 14:02 | user #14 change money: 63.40 +-3 = 60.4 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 14:02 | user #14 send enquiry for trip #199 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 14:02 | user #14 change money: 60.40 +-3 = 57.4 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 14:03 | user #20 save trip #200 for request #12 | /carpooling/addtrip/form/0/true 
+02-01-2018, 14:06 | user #20 save trip #201 for request #11 | /carpooling/addtrip/form/0/true 
+02-01-2018, 14:07 | user #14 change money: 57.40 +-3 = 54.4 | /carpooling/addtrip/form_request?commid=3 
+02-01-2018, 14:07 | user #14 add request #13 | /carpooling/addtrip/form_request?commid=3 
+02-01-2018, 14:08 | user #14 change money: 54.40 +-3 = 51.4 | /carpooling/addtrip/form_request?commid=3 
+02-01-2018, 14:08 | user #14 add request #14 | /carpooling/addtrip/form_request?commid=3 
+02-01-2018, 17:05 | user #20 change money: 33.10 +2.7 = 35.8 | /carpooling/trip/tripconfirm/211 
+02-01-2018, 17:05 | user #14 confirm trip #198, rating user #20 = 6 | /carpooling/trip/tripconfirm/211 
+02-01-2018, 17:05 | user #20 change money: 35.80 +2.7 = 38.5 | /carpooling/trip/tripconfirm/212 
+02-01-2018, 17:05 | user #14 confirm trip #199, rating user #20 = 7 | /carpooling/trip/tripconfirm/212 
+02-01-2018, 17:06 | user #20 change money: 38.50 +2.7 = 41.2 | /carpooling/trip/tripconfirm/213 
+02-01-2018, 17:06 | user #14 confirm trip #200, rating user #20 = 8 | /carpooling/trip/tripconfirm/213 
+02-01-2018, 17:06 | user #20 change money: 41.20 +2.7 = 43.9 | /carpooling/trip/tripconfirm/214 
+02-01-2018, 17:06 | user #14 confirm trip #201, rating user #20 = 9 | /carpooling/trip/tripconfirm/214 
+02-01-2018, 17:07 | user #30 change money: 7.00 +-3 = 4 | /carpooling/addtrip/form_request?commid=1 
+02-01-2018, 17:07 | user #30 add request #15 | /carpooling/addtrip/form_request?commid=1 
+02-01-2018, 17:07 | user #20 change money: 43.90 +2.7 = 46.6 | /carpooling/trip/tripconfirm/210 
+02-01-2018, 17:07 | user #30 confirm trip #197, rating user #20 = 10 | /carpooling/trip/tripconfirm/210 
+02-01-2018, 17:08 | user #29 change money: 94.00 +-3 = 91 | /carpooling/addtrip/form_request?commid=1 
+02-01-2018, 17:08 | user #29 add request #16 | /carpooling/addtrip/form_request?commid=1 
+02-01-2018, 17:09 | user #29 change money: 91.00 +-3 = 88 | /carpooling/addtrip/form_request?commid=2 
+02-01-2018, 17:09 | user #29 add request #17 | /carpooling/addtrip/form_request?commid=2 
+02-01-2018, 17:09 | user #30 save trip #202 for request #16 | /carpooling/addtrip/form/0/true 
+02-01-2018, 17:10 | user #30 save trip #203 for request #17 | /carpooling/addtrip/form/0/true 
+02-01-2018, 21:37 | user #28 saved trip #204 | /carpooling/addtrip/form/0/true 
+02-01-2018, 21:37 | user #27 send enquiry for trip #204 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 21:37 | user #27 change money: 136.55 +-3 = 133.55 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 21:40 | user #28 saved trip #205 | /carpooling/addtrip/form/0/true 
+02-01-2018, 22:02 | user #27 send enquiry for trip #205 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 22:02 | user #27 change money: 133.55 +-3 = 130.55 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 22:38 | user #28 saved trip #206 | /carpooling/addtrip/form/0/true 
+02-01-2018, 22:38 | user #27 send enquiry for trip #206 | /carpooling/communication/sendenquiry/true 
+02-01-2018, 22:38 | user #27 change money: 130.55 +-3 = 127.55 | /carpooling/communication/sendenquiry/true 
+03-01-2018, 08:46 | user #30 change money: 4.00 +2.7 = 6.7 | /carpooling/trip/tripconfirm/215 
+03-01-2018, 08:46 | user #29 confirm trip #202, rating user #30 = 1 | /carpooling/trip/tripconfirm/215 
+03-01-2018, 13:23 | user #30 change money: 6.70 +2.7 = 9.4 | /carpooling/trip/tripconfirm/216 
+03-01-2018, 13:23 | user #29 confirm trip #203, rating user #30 = 2 | /carpooling/trip/tripconfirm/216 
+03-01-2018, 15:38 | user #30 send enquiry for trip #206 | /carpooling/communication/sendenquiry/true 
+03-01-2018, 15:38 | user #30 change money: 9.40 +-3 = 6.4 | /carpooling/communication/sendenquiry/true 
+04-01-2018, 10:41 | user #28 change money: 24.30 +2.7 = 27 | /carpooling/trip/tripconfirm/219 
+04-01-2018, 10:41 | user #30 confirm trip #206, rating user #28 = 11 | /carpooling/trip/tripconfirm/219 
+05-01-2018, 12:38 | user #2 saved trip #207 | /carpooling/addtrip/form/0/true 
+05-01-2018, 12:39 | user #27 send enquiry for trip #207 | /carpooling/communication/sendenquiry/true 
+05-01-2018, 12:39 | user #27 change money: 127.55 +-3 = 124.55 | /carpooling/communication/sendenquiry/true 
+05-01-2018, 18:26 | user #2 saved trip #208 | /carpooling/addtrip/form/0/true 
+05-01-2018, 18:26 | user #27 send enquiry for trip #208 | /carpooling/communication/sendenquiry/true 
+05-01-2018, 18:26 | user #27 change money: 124.55 +-3 = 121.55 | /carpooling/communication/sendenquiry/true 
